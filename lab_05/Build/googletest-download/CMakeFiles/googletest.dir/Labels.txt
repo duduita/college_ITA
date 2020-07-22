@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/CMakeFiles/googletest
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/CMakeFiles/googletest.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/CMakeFiles/googletest-complete.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/media/sf_Comp/0Linux/college_ITA/lab_05/Build/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule

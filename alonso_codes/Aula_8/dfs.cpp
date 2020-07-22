@@ -31,7 +31,7 @@ DFS_iterative(s)
     desmarcar todos os vértices;
     // Aqui não é fila é pilha
     // a ideia é idêntica, a diferença é a flag que vai no while e que se usa pilha
-    // pensar com  calma depois
+    // pensar com  calma depoisenta
     stack P;
     int cont = 0;
     marcar s;

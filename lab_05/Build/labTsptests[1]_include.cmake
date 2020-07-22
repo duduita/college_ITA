@@ -1,0 +1,5 @@
+if(EXISTS "/media/sf_Comp/0Linux/college_ITA/lab_05/Build/labTsptests[1]_tests.cmake")
+  include("/media/sf_Comp/0Linux/college_ITA/lab_05/Build/labTsptests[1]_tests.cmake")
+else()
+  add_test(labTsptests_NOT_BUILT labTsptests_NOT_BUILT)
+endif()
