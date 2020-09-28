@@ -6,6 +6,11 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <title>Addition</title>
     </head>
+    <style>
+        .incorrect {
+            color: red;
+        }
+    </style>
     <body>
         <div id="app"></div>
         <script type="text/babel">
@@ -18,7 +23,8 @@
                         num1: 1,
                         num2: 1,
                         score: 0,
-                        response: ""
+                        response: "",
+                        incorrect: false
                     }
                 }
 
@@ -39,7 +45,7 @@
                 renderProblem() {
                     return (
                         <div>
-                            <h1>{this.state.num1} + {this.state.num2}</h1>
+                            <h1 className={this.state.incorrect ? "incorrect" : ""}>{this.state.num1} + {this.state.num2}</h1>
                             <input onKeyPress={this.inputKeyPress} onChange={this.updateResponse} value={this.state.response} />
                             Current guess is {this.state.response}
                             <div>
@@ -57,11 +63,13 @@
                             this.setState(state => ({
                                 score: state.score + 1,
                                 num1: Math.ceil(Math.random() * 10),
-                                num2: Math.ceil(Math.random() * 10)
+                                num2: Math.ceil(Math.random() * 10),
+                                incorrect: false
                             }));
                         } else {
                                 this.setState({
-                                    response: ""
+                                    response: "",
+                                    incorrect: true
                                 });
                         }
                     }
