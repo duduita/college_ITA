@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            .blue{
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Week 3 - CES-26 - ITA</h1>
+        <h1>Eduardo Menezes Moraes</h1>
+        <ul>
+            <li><button class="add" onclick="addChild(event)">Add Child</button></li>
+        </ul>
+
+
+        <script>
+
+        function addChild(e){
+            var add = `<ul>
+                            <li>
+                                <div id='elem'>Elemento</div>
+                                <div>
+                                <button onclick='addChild(event)'>Add Child</button>
+                                <button onclick='changeColor(event)'>Change Color</button>
+                                <button onclick='removeElem(event)'>Remove Child</button>
+                                </div>
+                            </li>
+                        </ul>`
+            $(e.target).parent().append(add)
+        }
+
+        function removeElem(e){
+            $(e.target).parent().parent().remove()
+        }
+        
+        function changeColor(e){
+            $(e.target).parent().prev().addClass("blue")
+        }
+
+
+        </script>
+
+    </body>
+
+</html>
