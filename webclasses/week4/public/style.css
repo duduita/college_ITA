@@ -1,0 +1,23 @@
+h1 {
+    position: relative;
+    top: 10px;
+}
+
+.data, .file {
+    width: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.data {
+    left: 0%;
+}
+
+.file {
+    left: 5%;
+}
+
+.showData {
+    position: relative;
+    left: 0%;
+}

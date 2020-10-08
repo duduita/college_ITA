@@ -1,0 +1,14 @@
+{
+    "user1" : {
+        "name" : "Eduardo Menezes Moraes",
+        "mail" : "eduardomenezesm@gmail.com"
+    },
+    "user2" : {
+        "name" : "Joao Fulano",
+        "mail" : "fulano@gmail.com"
+    },
+    "user3" : {
+        "name" : "Ciclano da Silva",
+        "mail" : "ciclano@hotmail.com.br"
+    }
+}
