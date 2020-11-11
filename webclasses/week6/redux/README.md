@@ -1,4 +1,4 @@
-# 5 série de programas CES26
+# 6 série de programas CES26
 
 Utilizando React e Redux implemente uma calculadora com as quatro operações aritméticas básicas.
 
