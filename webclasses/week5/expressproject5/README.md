@@ -1,4 +1,4 @@
-# 6 série de programas CES26
+# 5 série de programas CES26
 
 Utilizando React, Node e o módulo Express, foi desenvolvido uma aplicação com os seguintes requisitos:
 
