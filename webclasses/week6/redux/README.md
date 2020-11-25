@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# 6 série de programas CES26
+
+Utilizando React e Redux implemente uma calculadora com as quatro operações aritméticas básicas.
+
+### Uso
+
+```sh
+$ npm install
+or use
+$ yarn install
+```
+
+```sh
+$ npm start
+
+# Acesso localhost:3000
+
+```
+# Relatório
+
+Segue o Relatório 'Relatório - Série 6' em formato .pdf na raiz do diretório.
+
+>>>>>>> ce1a7010a83bf2dd287fefe5157308a24f170dbb
